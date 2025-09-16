@@ -1,0 +1,64 @@
+// The following are stored in hit files:
+// - Closed incision wound position
+
+0x3 - 0x6:
+Magic identifier
+(01 4D 48 44 31)
+
+0x7:
+Version (?)
+v0: (30)
+v1: (31)
+
+0x17:
+(02)
+(04)
+(05)
+
+0x2714 - 0x275B:
+Position of the perspective during the start of the operation
+{
+    0x2715:
+    X Start position of interactables (e.g. wounds, glass shards, ...) from the left side (?)
+
+    0x2720:
+    X End position of interactables (e.g. wounds, glass shards, ...) from the right side (?)
+
+    0x2729:
+    Y Start position of interactables (e.g. wounds, glass shards, ...) from the top side (?)
+
+    0x2740:
+    Compression of the interactables (How close they are to each other) (?)
+
+    0x2758:
+    The rotation of the interactables and camera perspective (?)
+    Usually set to (40) or (41) but in non-human operations, it's set to (00)
+}
+
+0x4DAB - 0x4DF3:
+Number and position of incision nodes
+{
+    0x4DAB:
+    Number of incision nodes
+    No incision: (00)
+    1 node: (01)
+    2 nodes: (02) or (03)
+    3 nodes: (04)
+    4 nodes: (05)
+    5 nodes: (06)
+
+    0x4DAC - 0x4DB7:
+    Position of the first incision node (Ignored if no incision)
+
+    0x4DB8 - 0x4DC3:
+    Position of the second incision node (Ignored if n < 2)
+
+    0x4DC4 - 0x4DCF:
+    Position of the third incision node (Ignored if n < 3)
+
+    0x4DD0 - 0x4DDB:
+    Position of the fourth incision node (Ignored if n < 4)
+
+    0x4DDC - 0x4DE7:
+    Position of the fifth incision node (Ignored if n < 5)
+}

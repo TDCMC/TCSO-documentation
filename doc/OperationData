@@ -1,0 +1,285 @@
+// Operation number:
+// Patient model
+// Organ model
+// Starting vitals
+// ~Vital limit
+
+1-1:
+Adult male
+Right arm
+80
+~99
+
+1-2:
+Adult male
+Abdomen
+99
+~99
+
+1-3:
+Adult male
+Pancreas
+99
+~99
+
+1-5:
+Adult male
+Throat
+99
+~99
+
+1-6:
+Adult male
+Small intestines
+70
+~80
+
+1-8:
+Child
+Heart
+10
+~30
+
+2-1:
+Adult male
+Spleen
+99
+~99
+
+2-3:
+(Virtual) Heart
+99
+~99
+
+2-4:
+Adult male
+Large intestines
+70
+~80
+
+2-6:
+Medium female
+Right lung
+40
+~65
+
+2-9:
+Medium female
+Right lung
+45
+~99
+
+2-11:
+Child
+Heart
+99
+~99
+
+3-2:
+Adult male
+Small intestines
+75
+~99
+
+3-4:
+Child
+Abdomen
+Left lung
+75
+~99
+
+3-6:
+Bomb
+
+3-8:
+Adult male
+Left lung
+99
+~99
+
+3-10:
+Child
+Pancreas
+85
+~99
+
+4-2:
+Adult male
+Liver
+90
+~99
+
+Adult male
+stomach
+90
+~99
+
+Adult male
+Pancreas
+90
+~99
+
+4-4:
+Adult male
+Liver
+70
+~75
+
+4-6:
+Fat male
+Right lung
+90
+~99
+
+4-7:
+Puzzle
+
+4-8:
+Fat male
+Right lung
+85
+~90
+
+4-9:
+Puzzle 2
+Puzzle 3
+
+4-10:
+Fat male
+Right lung
+75
+~85
+
+5-2:
+Adult female
+Left lung
+99
+~99
+---
+Child
+Left lung
+99
+~99
+---
+Medium(?) female
+Right lung
+99
+~99
+---
+Fat male
+Right lung
+99
+~99
+---
+Adult male
+Left kidney
+99
+~99
+
+5-3:
+Adult male
+Pancreas
+99
+~99
+
+5-4:
+Adult male
+Left kidney
+90
+~99
+
+5-6:
+Adult female
+Small intestines
+Abdomen
+Liver
+Heart
+95
+~99
+
+5-8:
+Adult male
+Left lung
+90
+~99
+
+5-9:
+Adult male
+Heart
+90
+~99
+
+6-3:
+Adult female
+Liver
+70
+~75
+
+6-4:
+Adult male
+Heart
+50
+~99
+
+6-6:
+Adult male
+Right lung
+90
+~99
+
+6-7:
+Adult male
+Pancreas
+99
+~99
+---
+Adult male
+Left lung
+99
+~99
+---
+Adult male
+Abdomen
+99
+~99
+---
+Adult male
+Heart
+99
+~99
+
+6-8:
+Adult male
+Heart
+90
+~99
+
+Z-1:
+Adult male
+Right arm
+80
+~99
+
+Z-2:
+Adult male
+Large intestines
+90
+~99
+
+Z-3:
+Adult male
+Right lung
+70
+~80
+
+Z-4:
+Child
+Right kidney
+45
+~50
+
+Z-5:
+Adult male
+Small intestines
+90
+~99

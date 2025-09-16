@@ -1,0 +1,101 @@
+// Data related to vitals isn't stored in dat files.
+// The number of phases for the retraction of pempti's gelatinous body isn't
+// stored in dat files.
+//
+// The following are stored in dat files:
+// - Cardiac arrest
+// - Interactables
+// - Background model (patient and organs)
+// - Locked tools
+// - Open incision wound position
+
+
+0x0F:
+Number of stages (The game has a peculiar way of defining stages which can be
+understood by decrementing this value in a level and playing it)
+(The "results section" is considered a stage)
+
+0x13:
+Patient model (doesn't apply to some levels)
+Bomb: (90)
+
+0x3B:
+Interaction other than incision
+True: (03)
+False: (04)
+
+------------------------------------CNF.DAT------------------------------------
+
+// Loaded from the data directory 
+
+0x00 - 0x5B:
+Global definitions for the briefing screen
+
+0x5C - 0x8B3:
+Briefing of every episode (Each episode is 24 bytes long)
+No operation/briefing: (00 00 00 00 00 00 00 00 00 00 00 00 FF FF FF FF FF FF
+FF FF FF FF FF FF)
+{
+    0xA4 - 0x14B:
+    Briefing of 4-2
+
+    0x194 - 0x1DB:
+    Briefing of 1-1, 1-2, 1-3
+
+    0x1F4 - 0x223:
+    Briefing of 1-5, 1-6
+
+    0x23C - 0x26B:
+    Briefing of 1-8, 2-1
+
+    0x284 - 0x2B3:
+    Briefing of 2-3, 2-4
+
+    0x2CC - 0x2E3:
+    Briefing of 2-6
+
+    0x314 - 0x32B:
+    Briefing of 2-9
+
+    0x344 - 0x35B:
+    Briefing of 2-11
+
+    0x374 - 0x38B:
+    Briefing of 3-2
+
+    0x3A4 - 0x3BB:
+    Briefing of 3-4
+
+    0x3D4 - 0x3EB:
+    Briefing of 3-6
+
+    0x404 - 0x41B:
+    Briefing of 3-8
+
+    0x434 - 0x44B:
+    Briefing of 3-10
+
+    0x464 - 0x47B:
+    Unknown
+
+    0x494 - 0x4AB:
+    Briefing of 4-4
+
+    0x4C4 - 0x53B:
+    Briefing of 4-6, 4-7, 4-8, 4-9, 4-10
+
+    0x56C - 0x5B3:
+    Briefing of 5-2, 5-3, 5-4
+
+    0x5CC - 0x5E3:
+    Briefing of 5-6
+
+    0x5FC - 0x62B:
+    Briefing of 5-8, 5-9
+
+    0x65C - 0x68B:
+    Briefing of 6-3, 6-4
+
+    0x6A4 - 0x8B3:
+    Briefing of 6-6, 6-7, 6-8, every Z operation, and every X operation
+}
